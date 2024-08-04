@@ -34,7 +34,7 @@ let users = [user1, user2, user3]
 function showSalary(users, age) {
   let result = '';
   for (let i = 0; i < users.length; i++) {
-    if(users[i].age <= age ){
+    if(users[i].age < age ){
         if(users.indexOf(users[i]) + 2 < users.length){
           result += `${users[i].name}, ${users[i].balance}\n`;
         }
