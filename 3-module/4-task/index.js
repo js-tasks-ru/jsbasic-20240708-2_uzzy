@@ -18,6 +18,16 @@ let user2 = {
   "favouriteFruit": "banana"
 };
 
+let user3 = {
+  "balance": "$$2,790.15",
+  "picture": "https://placehold.it/32x32",
+  "age": 35,
+  "name": "Dunny Maklaud",
+  "gender": "male",
+  "greeting": "Hello, Duncan Randall! You have 7 unread messages.",
+  "favouriteFruit": "banana"
+};
+
 
 function showSalary(users, age) {
   let result = '';
