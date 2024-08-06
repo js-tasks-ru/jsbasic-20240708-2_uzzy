@@ -27,7 +27,7 @@ function highlight(table) {
         }
       }
       else {
-        row.dataset.available = 'hidden';
+        row.hidden = true;
       }
     }
   }
