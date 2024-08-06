@@ -28,9 +28,6 @@ let user3 = {
   "favouriteFruit": "banana"
 };
 
-let users = [user1, user2, user3]
-
-
 function showSalary(users, age) {
   let result = '';
   for (let i = 0; i < users.length; i++) {
@@ -45,5 +42,3 @@ function showSalary(users, age) {
   };
     return result;
  };
-
-let result = showSalary(users, 30);
